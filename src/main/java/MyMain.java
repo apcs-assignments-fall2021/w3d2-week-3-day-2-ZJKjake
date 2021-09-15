@@ -7,7 +7,10 @@ public class MyMain {
     //     isLetter('?') => false
     //     isLetter('4') => false
     public static boolean isLetter(char c) {
-        // REPLACE WITH YOUR CODE HERE
+        char x=c;
+        if ((c>=65 && c<=90)||(c>=92 && c<=122)){
+            return true;
+        }
         return false;
     }
 
@@ -21,7 +24,10 @@ public class MyMain {
     //                             'f'
     //                             'g'
     public static void printChars(char c1, char c2) {
-        // REPLACE WITH YOUR CODE HERE
+
+        for (int i=c1;i<c2;i++){
+            System.out.println(i);
+        }
     }
 
     // Given a char ch, and returns the next letter in the alphabet.
@@ -34,7 +40,7 @@ public class MyMain {
     //     nextLetter('a') => 'b'
     //     nextLetter('z') => 'a'
     public static char nextLetter(char ch) {
-        // REPLACE WITH YOUR CODE HERE
+
         return ' ';
     }
 
